@@ -1,0 +1,116 @@
+body {
+  box-sizing: content-box;
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);  
+}
+
+@media only screen and (max-width: 376px) {
+
+  #big-box
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: space-between;
+    line-height: 25px;
+  }
+  .sedans_box {
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px 50px;
+    align-content: center;
+    text-align: left;
+  }   
+
+  .suvs_box {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px 50px;
+    text-align: left
+  }
+
+  .luxury_box {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px 50px;
+    text-align: left;
+  }
+
+  @media screen and (min-width: 376px) {
+    #big-box {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      height: 100%;
+      padding: 40px 20px;
+      line-height: 25px;
+    }
+
+    .sedans_box {
+      background-color: hsl(31, 77%, 52%);
+      padding: 30px 30px 30px 50px;
+      justify-content: left;
+    }
+    .suvs_box {
+      background-color: hsl(184, 100%, 22%);
+      padding: 30px 30px 30px 50px;
+    }
+
+    .luxury_box {
+      background-color: hsl(179, 100%, 13%);
+      padding: 30px 30px 30px 50px;
+  
+    }
+    .img {
+      display: flex;
+      flex-direction: row;
+      justify-content: left;
+      text-align: left ;
+    }
+
+    p {
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+    }
+    
+    h1 {
+      color: hsl(0, 0%, 95%);
+      text-align: left;
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      font-size: 30px;
+    }
+
+    button {
+      background-color: white;
+    
+    }
+
+    .button_1 button { 
+    color: hsl(31, 77%, 52%);
+    border-radius: 25px ;
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+  }
+
+  .button_2 button{
+    color: hsl(184, 100%, 22%);
+    border-radius: 25px ;
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    padding top: 10px;
+  }
+
+  .button_3 button {
+    color: hsl(179, 100%, 13%);
+    border-radius: 25px ;
+    width: 140px;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+  }
